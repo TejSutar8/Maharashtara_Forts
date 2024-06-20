@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+}
+
+/* Styling for popup galleries */
+.popup-gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    max-width: 300px; /* Adjust max-width as needed */
+}
+
+.popup-gallery img {
+    width: auto; /* Adjust image size */
+    height: 100px; /* Adjust image height */
+    margin-right: 5px; /* Spacing between images */
+    border-radius: 5px; /* Optional: Rounded corners */
+}
